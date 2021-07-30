@@ -1,8 +1,9 @@
-![React App - Google Chrome 7_30_2021 1_36_40 PM (2)](https://user-images.githubusercontent.com/50464472/127684653-7cb31394-9fa2-4bf2-a5d7-35d28f0ca8d4.png)
+
 # In Cicle Front-End Challenger
 
 That's the beginning of a social media page made as a challenger from InCicle company
 
+![React App - Google Chrome 7_30_2021 1_36_40 PM (2)](https://user-images.githubusercontent.com/50464472/127684653-7cb31394-9fa2-4bf2-a5d7-35d28f0ca8d4.png)
 
 ## Available Scripts
 
