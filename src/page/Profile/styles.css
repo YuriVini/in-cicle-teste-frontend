@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 460px;
+    background-color: aliceblue;
+    justify-content: center;
+    border-radius: 10px;
+    line-height: 0;
+}
+
+.user-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    line-height: 0;
+    margin-top: 120px;
+}
+
+.profile-content h1 {
+    font-size: 24px;
+    color:rgb(100, 201, 226);
+    margin-bottom: 10px;
+    font-family: 'Roboto', bold;
+}
+
+.profile-content h3 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', bold;
+}
+
+.profile-content p {
+    font-size: 13px;
+    font-family: 'Roboto', thin;
+}
+
+.image-container {
+    width: 153px;
+    height: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2;
+    border-color: rgb(27, 21, 97);
+    border-radius: 50%;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.info-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+.info-container h2 {
+    font-size: 17px;
+    font-family: 'Roboto', light;
+    color: rgb(126, 126, 126);
+    margin-left: 5px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.icon {
+    color: #64C9E2;
+}
