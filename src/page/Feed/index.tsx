@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
 import { AiFillEdit, AiOutlineLike } from 'react-icons/ai';
 import { BsImages, BsCameraVideo, BsLockFill } from 'react-icons/bs';
@@ -7,7 +7,17 @@ import { FiChevronDown } from 'react-icons/fi';
 import { FaRegCommentDots, FaRegShareSquare } from 'react-icons/fa';
 import { IoEarthSharp } from 'react-icons/io5';
 
+
 function Feed() {
+    const [pressed, setPressed] = useState(true);
+    function handleTogglePressed(){
+            setPressed((prevState) => !prevState);
+    }
+
+    const [pressed2, setPressed2] = useState(true);
+    function handleTogglePressed2(){
+            setPressed2((prevState) => !prevState);
+    }
 
     return (
         <div className="feed-container">
@@ -68,8 +78,13 @@ function Feed() {
                 </div>
 
                 <div className="button-container">
-                    <button className="button-content" type="button">
-                        <AiOutlineLike size={26} color="#a1a1a1"/>
+                    <button 
+                        id='1'
+                        className={pressed ? "button-content" : "button-pressed-content"} 
+                        type="button"
+                        onClick={handleTogglePressed}    
+                    >
+                        <AiOutlineLike size={26} color={pressed ? "#a1a1a1" : "#64C9E2"}/>
                         <h4>Curtir</h4>
                     </button>
                     <button className="button-content" type="button">
@@ -122,8 +137,12 @@ function Feed() {
                 </div>
 
                 <div className="button-container">
-                    <button className="button-content" type="button">
-                        <AiOutlineLike size={26} color="#a1a1a1"/>
+                    <button
+                        className={pressed2 ? "button-content" : "button-pressed-content"} 
+                        type="button"
+                        onClick={handleTogglePressed2}
+                    >
+                        <AiOutlineLike size={26} color={pressed2 ? "#a1a1a1" : "#64C9E2"}/>
                         <h4>Curtir</h4>
                     </button>
                     <button className="button-content" type="button">

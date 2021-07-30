@@ -67,6 +67,7 @@
 
 .article-container h3 {
     color: #64C9E2;
+    font-family: 'Roboto';
 }
 
 .post-container {
@@ -215,9 +216,33 @@
     border: none;
 }
 
+.button-pressed-content {
+    display: flex;
+    width: 220px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border: none;
+    background-color: #555454;
+}
+
 .button-content h4 {
     font-size: 18px;
     font-family: 'Roboto';
     font-weight: 400;
     margin: 4px;
+}
+
+.button-pressed-content h4 {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 4px;
+    color:#64C9E2;
+}
+
+.button-content:hover{
+    cursor: pointer;
+    opacity: 0.7;
 }
