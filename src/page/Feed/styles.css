@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.feed-container {
+    width: 800px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-top: 58px;
+    margin-left: 30px;
+    background-color: #a3a3a3;
+}
+
+.new-post-container {
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.write-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin: 15px;
+}
+
+.icon-write-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.icon-write-content h1 {
+    font-size: 27px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.icon-feed-content {
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #EFEFEF;
+    border-radius: 8px;
+}
+
+.article-container p {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.article-container h3 {
+    color: #64C9E2;
+}
+
+.post-container {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.post-content {
+    display: flex;
+    margin: 20px;
+}
+
+.profile-post-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-feed-container {
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2;
+    border-color: rgb(27, 21, 97);
+    border-radius: 50%;
+}
+
+.image-feed {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.status-post {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.status-post h1 {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: #64C9E2;
+    margin: 0;
+}
+
+.icon-post-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-post-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.icon-post-content h2 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Roboto';
+    margin-left: 5px;
+}
+
+.written-post {
+    margin-left: 22px;
+
+}
+
+.written-post h2 {
+    color: #a3a3a3;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.reactions-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 22px 20px 22px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #a3a1a160;
+}
+
+.reactions-container h3 {
+    font-size: 14px;
+    color: #a1a1a1;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.likes-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.likes-content h3 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.comment-share-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.comment-share-content h3 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.button-content {
+    display: flex;
+    width: 220px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    border: none;
+}
+
+.button-content h4 {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 4px;
+}
